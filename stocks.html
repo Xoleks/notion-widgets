@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Котировки акций</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #131722;
+    }
+    .tradingview-widget-container {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright">
+      <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+        <span class="blue-text">Track all markets on TradingView</span>
+      </a>
+    </div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+    {
+      "title": "Акции",
+      "tabs": [
+        {
+          "title": "NYSE (Нью-Йорк)",
+          "symbols": [
+            { "s": "NYSE:JPM", "d": "JPMorgan Chase" },
+            { "s": "NYSE:V", "d": "Visa" },
+            { "s": "NYSE:MA", "d": "Mastercard" },
+            { "s": "NYSE:KO", "d": "Coca-Cola" },
+            { "s": "NYSE:DIS", "d": "Walt Disney" },
+            { "s": "NYSE:BA", "d": "Boeing" },
+            { "s": "NYSE:MCD", "d": "McDonald's" },
+            { "s": "NYSE:GS", "d": "Goldman Sachs" },
+            { "s": "NYSE:WMT", "d": "Walmart" },
+            { "s": "NYSE:NKE", "d": "Nike" },
+            { "s": "NYSE:XOM", "d": "ExxonMobil" },
+            { "s": "NYSE:CVX", "d": "Chevron" }
+          ],
+          "originalTitle": "NYSE (Нью-Йорк)"
+        },
+        {
+          "title": "NASDAQ (Big Tech)",
+          "symbols": [
+            { "s": "NASDAQ:AAPL", "d": "Apple" },
+            { "s": "NASDAQ:MSFT", "d": "Microsoft" },
+            { "s": "NASDAQ:GOOGL", "d": "Alphabet (Google)" },
+            { "s": "NASDAQ:AMZN", "d": "Amazon" },
+            { "s": "NASDAQ:NVDA", "d": "NVIDIA" },
+            { "s": "NASDAQ:META", "d": "Meta (Facebook)" },
+            { "s": "NASDAQ:TSLA", "d": "Tesla" },
+            { "s": "NASDAQ:NFLX", "d": "Netflix" },
+            { "s": "NASDAQ:AMD", "d": "AMD" },
+            { "s": "NASDAQ:INTC", "d": "Intel" },
+            { "s": "NASDAQ:ADBE", "d": "Adobe" },
+            { "s": "NASDAQ:PYPL", "d": "PayPal" }
+          ],
+          "originalTitle": "NASDAQ (Big Tech)"
+        },
+        {
+          "title": "LSE (Лондон)",
+          "symbols": [
+            { "s": "LSE:SHEL", "d": "Shell" },
+            { "s": "LSE:BP", "d": "BP" },
+            { "s": "LSE:HSBA", "d": "HSBC" },
+            { "s": "LSE:AZN", "d": "AstraZeneca" },
+            { "s": "LSE:ULVR", "d": "Unilever" },
+            { "s": "LSE:VOD", "d": "Vodafone" },
+            { "s": "LSE:RR", "d": "Rolls-Royce" },
+            { "s": "LSE:BARC", "d": "Barclays" },
+            { "s": "LSE:GSK", "d": "GSK" },
+            { "s": "LSE:RIO", "d": "Rio Tinto" }
+          ],
+          "originalTitle": "LSE (Лондон)"
+        },
+        {
+          "title": "Европа (XETRA/Париж)",
+          "symbols": [
+            { "s": "XETR:SAP", "d": "SAP (Германия)" },
+            { "s": "XETR:SIE", "d": "Siemens (Германия)" },
+            { "s": "XETR:VOW3", "d": "Volkswagen (Германия)" },
+            { "s": "XETR:BMW", "d": "BMW (Германия)" },
+            { "s": "XETR:MBG", "d": "Mercedes-Benz (Германия)" },
+            { "s": "XETR:ALV", "d": "Allianz (Германия)" },
+            { "s": "EURONEXT:MC", "d": "LVMH (Франция)" },
+            { "s": "EURONEXT:AIR", "d": "Airbus (Франция)" },
+            { "s": "EURONEXT:OR", "d": "L'Oréal (Франция)" },
+            { "s": "EURONEXT:ASML", "d": "ASML (Нидерланды)" }
+          ],
+          "originalTitle": "Европа (XETRA/Париж)"
+        },
+        {
+          "title": "WSE (Варшава)",
+          "symbols": [
+            { "s": "GPW:PKN", "d": "PKN Orlen" },
+            { "s": "GPW:PKO", "d": "PKO BP" },
+            { "s": "GPW:PZU", "d": "PZU" },
+            { "s": "GPW:CDR", "d": "CD Projekt" },
+            { "s": "GPW:ALE", "d": "Allegro" },
+            { "s": "GPW:KGH", "d": "KGHM" },
+            { "s": "GPW:DNP", "d": "Dino Polska" },
+            { "s": "GPW:PEO", "d": "Bank Pekao" },
+            { "s": "GPW:LPP", "d": "LPP" }
+          ],
+          "originalTitle": "WSE (Варшава)"
+        },
+        {
+          "title": "Азия (Токио/Гонконг)",
+          "symbols": [
+            { "s": "TSE:7203", "d": "Toyota (Япония)" },
+            { "s": "TSE:6758", "d": "Sony (Япония)" },
+            { "s": "TSE:7974", "d": "Nintendo (Япония)" },
+            { "s": "TSE:9984", "d": "SoftBank (Япония)" },
+            { "s": "HKEX:9988", "d": "Alibaba (Гонконг)" },
+            { "s": "HKEX:700", "d": "Tencent (Гонконг)" },
+            { "s": "HKEX:1810", "d": "Xiaomi (Гонконг)" },
+            { "s": "HKEX:3690", "d": "Meituan (Гонконг)" }
+          ],
+          "originalTitle": "Азия (Токио/Гонконг)"
+        },
+        {
+          "title": "Все",
+          "symbols": [
+            { "s": "NASDAQ:AAPL", "d": "Apple" },
+            { "s": "NASDAQ:MSFT", "d": "Microsoft" },
+            { "s": "NASDAQ:GOOGL", "d": "Alphabet" },
+            { "s": "NASDAQ:AMZN", "d": "Amazon" },
+            { "s": "NASDAQ:NVDA", "d": "NVIDIA" },
+            { "s": "NASDAQ:META", "d": "Meta" },
+            { "s": "NASDAQ:TSLA", "d": "Tesla" },
+            { "s": "NASDAQ:NFLX", "d": "Netflix" },
+            { "s": "NASDAQ:AMD", "d": "AMD" },
+            { "s": "NYSE:JPM", "d": "JPMorgan" },
+            { "s": "NYSE:V", "d": "Visa" },
+            { "s": "NYSE:KO", "d": "Coca-Cola" },
+            { "s": "NYSE:DIS", "d": "Disney" },
+            { "s": "NYSE:BA", "d": "Boeing" },
+            { "s": "NYSE:MCD", "d": "McDonald's" },
+            { "s": "NYSE:WMT", "d": "Walmart" },
+            { "s": "NYSE:XOM", "d": "ExxonMobil" },
+            { "s": "LSE:SHEL", "d": "Shell" },
+            { "s": "LSE:HSBA", "d": "HSBC" },
+            { "s": "LSE:AZN", "d": "AstraZeneca" },
+            { "s": "XETR:SAP", "d": "SAP" },
+            { "s": "XETR:SIE", "d": "Siemens" },
+            { "s": "EURONEXT:MC", "d": "LVMH" },
+            { "s": "EURONEXT:ASML", "d": "ASML" },
+            { "s": "GPW:PKN", "d": "PKN Orlen" },
+            { "s": "GPW:CDR", "d": "CD Projekt" },
+            { "s": "GPW:ALE", "d": "Allegro" },
+            { "s": "TSE:7203", "d": "Toyota" },
+            { "s": "TSE:6758", "d": "Sony" },
+            { "s": "HKEX:9988", "d": "Alibaba" },
+            { "s": "HKEX:700", "d": "Tencent" }
+          ],
+          "originalTitle": "Все"
+        }
+      ],
+      "width": "100%",
+      "height": "100%",
+      "showChart": true,
+      "showFloatingTooltip": true,
+      "locale": "ru",
+      "colorTheme": "dark",
+      "isTransparent": false,
+      "showSymbolLogo": true,
+      "backgroundColor": "#131722",
+      "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+      "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+      "gridLineColor": "rgba(42, 46, 57, 1)",
+      "scaleFontColor": "rgba(219, 219, 219, 1)",
+      "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+      "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+      "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+      "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+      "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+    }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</body>
+</html>
